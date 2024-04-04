@@ -31,9 +31,9 @@ public class Main {
         System.out.println("Task 4");
         char [] reverseFullName = {'n','a','v','I',' ','v','o','n','a','v','I'};
         int track = reverseFullName.length;
-        for (int i = track-1; i>0; i--) {
+        for (int i = track-1; i>=0; i--) {
             System.out.print(reverseFullName[i]);
         }
-        System.out.println(reverseFullName[0]);
+        System.out.println();
     }
 }
