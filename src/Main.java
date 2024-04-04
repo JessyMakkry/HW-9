@@ -26,7 +26,7 @@ public class Main {
         for (int element : costThree) {
             middle = middle + element;
         }
-        middle = middle / 5f;
+        middle = middle / costThree.length;
         System.out.println("Средняя сумма трат за месяц составила " + middle + " рублей");
         System.out.println("Task 4");
         char [] reverseFullName = {'n','a','v','I',' ','v','o','n','a','v','I'};
